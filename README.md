@@ -3,7 +3,6 @@ Planering
 
 <h1> skiss </h1>
   
-  
 <h1> Font </h1>
  
 <h1> Färg </h1>
