@@ -1,0 +1,93 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #252608;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    letter-spacing: .1rem;
+    font-family: 'Pirata One', cursive;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #252608;
+    color: #F5F5F5;
+}
+
+.nav__inner {
+    width: 100%;
+}
+
+.nav__heading {
+    color:#F5F5F5;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.back-to-top__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-to-top__link {
+    padding: .2rem;
+    position: fixed;
+    top: calc(100vh - 5rem);
+    background-color: #FEFED8;
+}
+
+.container {
+    position: relative;
+    max-width: 48rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lyrics {
+    padding-top: 1rem;    
+}
+
+.record__header {
+    padding-top: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 512px) {
+    .record__header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
