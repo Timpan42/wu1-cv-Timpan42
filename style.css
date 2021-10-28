@@ -5,16 +5,19 @@ html, body {
 }
 
 body {
-    background-color: #F5F5F5;
-    color: #252608;
+    background-color: #d0e8e9;
+    color: #272727;
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
 }
 
 h1, h2, h3 {
     letter-spacing: .1rem;
-    font-family: 'Pirata One', cursive;
+    font-family: 'Prompt', sans-serif;
     line-height: 1.2;
+}
+p {
+    font-family: 'Heebo', sans-serif;
 }
 
 h1 {
@@ -26,15 +29,10 @@ h2 {
 h3 {
     font-size: 1.4rem;
 }
-/*stora rätbloket på toppen*/
-nav {
-    display: flex;
-    align-items: center;
-    background-color: #252608;
-    color: #F5F5F5;
-}
 
+/*stora rätbloket på toppen*/
 .nav__inner {
+    display: flex;
     width: 100%;
 }
 
@@ -50,8 +48,18 @@ footer {
 
 img {
     max-width: 100%;
-    position: absolute;
-    right: 30px;
+    position: relative;
+}
+.img_stor{
+    width: 35.0rem;
+}
+
+.flex{
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    
+    
 }
 
 .back-to-top__wrapper {
@@ -81,11 +89,22 @@ img {
 
 .record__header {
     padding-top: 2rem;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
+.header_ost {
+    color: #F5F5F5;
+    background-color: #252608;
+    display: flex;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+
+
 
 @media screen and (max-width: 512px) {
     .record__header {
