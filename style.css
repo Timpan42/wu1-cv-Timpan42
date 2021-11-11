@@ -100,7 +100,10 @@ img {
     display: flex;
     align-items: center;
 }
-main{
+.section_right {
+  margin-left: 2.3rem;
+}
+main {
     display: flex;
 }
 
