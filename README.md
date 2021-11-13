@@ -4,7 +4,6 @@
   ![skiss](Skiss.jpg)
 
  ## Font
- 
 Vill använda en font som liknar fonten på loggan till texten (SESA).
 Roboto, sans-serif
 
