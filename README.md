@@ -4,7 +4,7 @@
   ![skiss](Skiss/Skiss.jpg)
 
  ## Font
- ![Font](skiss/Loggtyp_Exeplet.PNG)
+ ![Font](Skiss/Loggtyp_Exeplet.PNG)
 Vill använda en font som liknar fonten på loggan till texten (SESA).
 Roboto, sans-serif
 
