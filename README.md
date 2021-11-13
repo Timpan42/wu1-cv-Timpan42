@@ -7,11 +7,11 @@
  ![Font](Skiss/Loggtyp_Exeplet.PNG)
 
 <p>Vill använda en font som liknar fonten på loggan till texten (SESA).
-Roboto, sans-serif
+"Roboto, sans-serif"
 </p>
 
-<p>Och vill använda en font som liknar namn delen av loggan (Segata Sanshiro)
-Permanent Marker, cursive
+<p>Och vill använda en font som liknar namn delen av loggan (Segata Sanshiro).
+"Permanent Marker, cursive"
 </p>
 
 ## Färg 
