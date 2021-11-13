@@ -1,12 +1,10 @@
 # Planering
 
 ## skiss 
-  <img src="skiss.jpg">
+  ![skiss](Skiss.jpg)
 
  ## Font
-![Font](Skiss.jpg)
-
-
+ 
 Vill använda en font som liknar fonten på loggan till texten (SESA).
 Roboto, sans-serif
 
