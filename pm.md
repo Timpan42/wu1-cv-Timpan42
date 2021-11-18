@@ -33,5 +33,4 @@ Jag hade problem med att få en högerspalt med bilden och text under. Jag kunde
 
 ## Sammanfattning
 
-Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
-Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
+Efter att arbeta med denna uppgift så har jag lärt mig mer om hur HTML och CSS fungera och hur man programer dem. Jag tycker att än om min erfaren så har jag gjort en fungerande sida och helt okej utseende sida. Det finns dock förbättringar som kan göras som till exempel att sidan anpassas på ett bra set i mobilformat. 
