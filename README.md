@@ -18,6 +18,6 @@
 Oklar vilka färger som jag ska använda för CV. Men kommer mest troligen använda färger som har någon koppling till loggan, SEGA eller sega saturn konsolen
 
 ## Figma 
- https://www.figma.com/file/psT6Nvbi08XD5PUDhTlR4M/Untitled?node-id=0%3A1
+https://ntig-umea.github.io/wu1-cv-Timpan42/
 
 ## Reflektion
