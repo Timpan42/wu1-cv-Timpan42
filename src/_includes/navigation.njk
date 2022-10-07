@@ -1,0 +1,10 @@
+<nav>
+    <img src="img/LOG-2.png" alt="loga">
+    <ul>
+        {% for item in navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
