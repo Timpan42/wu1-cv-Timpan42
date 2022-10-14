@@ -4,46 +4,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 $base-size: 1rem;
 
-body{
+body {
     max-width: min(80ch, 100vw - 1rem);
     margin-inline: auto;
     background-color: #f5f5f5;
     color: #272727;
     font-family: 'Roboto', sans-serif;
 }
-h1, h2, h3 {
-    letter-spacing: .1rem;
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0.1rem;
     font-family: 'Permanent Marker', cursive;
     line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-
-nav > ul{
-    display: flex;
-    gap: $base-size;
-    list-style: none;
-    padding: 0;
-    
+h3 {
+    font-size: 1.5rem
 }
-nav{
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+dl {
+    margin-bottom: 1.5rem;
+}
+
+dt {
+    font-size: 1.2rem;
+}
+
+dd {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
     display: flex;
     width: 100%;
     background-color: #203155;
     color: #f5f5f5;
     font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
 }
 
-a:hover{
-    background-color: blueviolet;
-}
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     color: #f5f5f5;
 }
 
-picture > img {
+a:hover {
+    background-color: blueviolet;
+}
+
+
+nav>ul {
+    display: flex;
+    gap: $base-size;
+    list-style: none;
+    padding: 0;
+
+}
+
+picture>img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.0rem;
+    margin-top: 1.5rem;
+
+
+    @media (max-width: 700px){
+        flex-direction: column-reverse;
+    }
+}
+
+.sidebar {
+    /* ↓ The width when the sidebar _is_ a sidebar */
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+
+.not-sidebar {
+    /* ↓ Grow from nothing */
+    flex-basis: 0;
+    flex-grow: 999;
+    /* ↓ Wrap when the elements are of equal width */
+    min-inline-size: 50%;
+}

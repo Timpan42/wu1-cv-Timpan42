@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .with-sidebar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .sidebar {
+            /* ↓ The width when the sidebar _is_ a sidebar */
+            flex-basis: 20rem;
+            flex-grow: 1;
+        }
+
+        .not-sidebar {
+            /* ↓ Grow from nothing */
+            flex-basis: 0;
+            flex-grow: 999;
+            /* ↓ Wrap when the elements are of equal width */
+            min-inline-size: 50%;
+        }
+    </style>
+</head>
+
+<body class="with-sidebar">
+
+    <main class="not-sidebar">
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium optio natus dicta totam. Mollitia
+            obcaecati aperiam minus, tempore blanditiis quas fuga eligendi quam enim quidem quia veritatis tempora
+            ad laboriosam.</p>
+        <p>Autem sint repellendus in expedita doloribus labore beatae amet cupiditate? Dolorem itaque aliquid nulla
+            at fugiat placeat voluptatem, ea magnam porro. Explicabo, dolorem praesentium et soluta vel laboriosam
+            similique reiciendis?</p>
+        <p>Accusantium totam iure repellendus incidunt atque doloribus nostrum? Nostrum eius perspiciatis nihil
+            dignissimos. Rerum vitae minus, laboriosam impedit corrupti, aliquam doloribus voluptates itaque
+            consectetur, aspernatur dignissimos explicabo. Molestiae, dolores nesciunt.</p>
+    </main>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">Hem</a></li>
+            <li><a href="#">Om</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
